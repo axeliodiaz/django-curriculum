@@ -16,7 +16,7 @@ class PersonalSocialMediaAdmin(admin.ModelAdmin):
     list_filter = ['created', 'modified']
 
 
-class PersonalPhone(admin.ModelAdmin):
+class PersonalPhoneAdmin(admin.ModelAdmin):
     list_display = ['user', 'name', 'phone']
     list_filter = ['created', 'modified']
 
