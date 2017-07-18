@@ -35,6 +35,10 @@ Add it to your `INSTALLED_APPS`:
         ...
     )
 
+And migrate the models: ::
+
+   python manage.py migrate 
+
 Features
 --------
 
