@@ -46,6 +46,7 @@ class PersonalPhone(TimeStampedModel):
 
 
 class EducationInfo(TimeStampedModel, TimeFramedModel):
+    user = models.ForeignKey(User)
     name = models.CharField(max_length=250)
     location = models.CharField(max_length=250)
     school_url = models.URLField(_('School URL'))
@@ -155,3 +156,19 @@ class Skill(TimeStampedModel):
 
     def __unicode__(self):
         return ''.join([self.skillset.name, '-', self.name])
+
+
+class Language(TimeStampedModel):
+    name = models.CharField(max_length=250)
+
+    def __unicode__(self):
+        return self.name
+
+
+class LanguageInfo(TimeStampedModel):
+    user = models.ForeignKey(User)
+    language = models.ForeignKey(Language)
+    level = models.CharField(max_length=250)
+
+    def __unicode__(self):
+        return ' - '.join([self.user, self.language])

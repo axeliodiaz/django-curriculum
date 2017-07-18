@@ -43,7 +43,12 @@ History
 
 * Adding migrations files.
 
-0.1.7 (2017-07-17)
+0.1.8 (2017-07-17)
 ++++++++++++++++++
 
 * Adding details to run makemigrations and migrate.
+
+0.1.9 (2017-07-17)
+++++++++++++++++++
+
+* Adding language register and include all ModelAdmin.
