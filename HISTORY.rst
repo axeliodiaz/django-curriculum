@@ -17,3 +17,13 @@ History
 ++++++++++++++++++
 
 * Removing validator daprecated.
+
+0.1.3 (2017-07-17)
+++++++++++++++++++
+
+* Delete additional description.
+
+0.1.4 (2017-07-17)
+++++++++++++++++++
+
+* Change PhoneNumberField by IntegerField.

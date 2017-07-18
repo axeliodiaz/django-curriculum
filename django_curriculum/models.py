@@ -39,7 +39,7 @@ class PersonalSocialMedia(TimeStampedModel):
 class PersonalPhone(TimeStampedModel):
     user = models.ForeignKey(User)
     name = models.CharField(max_length=255)
-    phone = models.PhoneNumberField(blank=True)
+    phone = models.IntegerField(blank=True)
 
     def __unicode__(self):
         return "{} ({})".format(self.person, self.name)
