@@ -35,9 +35,10 @@ Add it to your `INSTALLED_APPS`:
         ...
     )
 
-And migrate the models: ::
+And create migrations and migrate the models: ::
 
-   python manage.py migrate 
+   python manage.py makemigrations django_curriculum
+   python manage.py migrate django_curriculum
 
 Features
 --------

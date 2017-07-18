@@ -42,3 +42,8 @@ History
 ++++++++++++++++++
 
 * Adding migrations files.
+
+0.1.7 (2017-07-17)
+++++++++++++++++++
+
+* Adding details to run makemigrations and migrate.
