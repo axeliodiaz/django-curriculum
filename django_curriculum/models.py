@@ -29,8 +29,8 @@ class PersonalSocialMedia(TimeStampedModel):
     instagram = models.CharField(max_length=255, null=True, blank=True)
     snapchat = models.CharField(max_length=255, null=True, blank=True)
     skype = models.CharField(max_length=255, null=True, blank=True)
-    wordpress = models.URLField(_('wordpress'), blank=True, verify_exists=True)
-    youtube = models.URLField(_('youtube'), blank=True, verify_exists=True)
+    wordpress = models.URLField(_('wordpress'), blank=True)
+    youtube = models.URLField(_('youtube'), blank=True)
 
     def __unicode__(self):
         return self.person
@@ -86,7 +86,7 @@ class JobInfo(TimeStampedModel, TimeFramedModel):
     company = models.CharField(max_length=250)
     location = models.CharField(max_length=250)
     title = models.CharField(max_length=250)
-    company_url = models.URLField(_('Company URL'), verify_exists=False)
+    company_url = models.URLField(_('Company URL'))
     description = models.TextField(blank=True)
     is_current = models.BooleanField(default=False)
     is_public = models.BooleanField(default=True)
@@ -147,7 +147,7 @@ class Skillset(TimeStampedModel):
 class Skill(TimeStampedModel):
     user = models.ForeignKey(User)
     name = models.CharField(max_length=250)
-    skill_url = models.URLField(_('Skill URL'), blank=True, verify_exists=True)
+    skill_url = models.URLField(_('Skill URL'), blank=True)
     skillset = models.ForeignKey(Skillset)
 
     class Meta:

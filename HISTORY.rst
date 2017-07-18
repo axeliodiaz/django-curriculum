@@ -12,3 +12,8 @@ History
 ++++++++++++++++++
 
 * Includying Overview model.
+
+0.1.2 (2017-07-17)
+++++++++++++++++++
+
+* Removing validator daprecated.
