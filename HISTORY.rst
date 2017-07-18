@@ -32,3 +32,8 @@ History
 ++++++++++++++++++
 
 * Fix JobInfo foreign key.
+
+0.1.6 (2017-07-17)
+++++++++++++++++++
+
+* Adding description to migrate.
