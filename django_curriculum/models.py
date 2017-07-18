@@ -7,7 +7,7 @@ from django.db import models
 from model_utils.models import TimeStampedModel, TimeFramedModel
 
 
-class Overview(models.Model):
+class Overview(TimeStampedModel):
     user = models.ForeignKey(User)
     text = models.TextField()
 
