@@ -125,7 +125,7 @@ class JobInfo(TimeStampedModel, TimeFramedModel):
 
 
 class Accomplishment(TimeStampedModel):
-    job = models.ForeignKey(Job)
+    job = models.ForeignKey(JobInfo)
     description = models.TextField()
     order = models.IntegerField(default=0)
 

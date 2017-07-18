@@ -27,3 +27,8 @@ History
 ++++++++++++++++++
 
 * Change PhoneNumberField by IntegerField.
+
+0.1.5 (2017-07-17)
+++++++++++++++++++
+
+* Fix JobInfo foreign key.
