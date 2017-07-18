@@ -3,7 +3,7 @@
 History
 -------
 
-0.1.11 (2017-07-18)
+0.1.12 (2017-07-18)
 ++++++++++++++++++
 
 * Include Overview model.
@@ -15,3 +15,4 @@ History
 * Add migrations files.
 * Add details to run makemigrations and migrate.
 * Add language register and include all ModelAdmin.
+* Add TimeStampedModel to Overview
