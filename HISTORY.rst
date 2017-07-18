@@ -37,3 +37,8 @@ History
 ++++++++++++++++++
 
 * Adding description to migrate.
+
+0.1.7 (2017-07-17)
+++++++++++++++++++
+
+* Adding migrations files.
