@@ -31,14 +31,14 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'django_curriculum',
+        'curriculum',
         ...
     )
 
 And create migrations and migrate the models: ::
 
-   python manage.py makemigrations django_curriculum
-   python manage.py migrate django_curriculum
+   python manage.py makemigrations curriculum
+   python manage.py migrate curriculum
 
 Features
 --------
