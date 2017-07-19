@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 
 class DjangoCurriculumConfig(AppConfig):
-    name = 'django_curriculum'
+    name = 'curriculum'

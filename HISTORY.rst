@@ -16,3 +16,8 @@ History
 * Add details to run makemigrations and migrate.
 * Add language register and include all ModelAdmin.
 * Add TimeStampedModel to Overview
+
+0.1.13 (2017-07-19)
+++++++++++++++++++
+
+* Add Rest API

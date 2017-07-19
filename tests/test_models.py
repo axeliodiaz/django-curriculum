@@ -10,7 +10,7 @@ Tests for `django-curriculum` models module.
 
 from django.test import TestCase
 
-from django_curriculum import models
+from curriculum import models
 
 
 class TestDjango_curriculum(TestCase):

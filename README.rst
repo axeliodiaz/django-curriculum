@@ -35,10 +35,20 @@ Add it to your `INSTALLED_APPS`:
         ...
     )
 
-And create migrations and migrate the models: ::
+Create migrations and migrate the models: ::
 
    python manage.py makemigrations curriculum
    python manage.py migrate curriculum
+
+Add the urls.py to access the API Rest: ::
+
+   urlpatterns = [
+       ...
+       url(r'^api/curriculum/', include('curriculum.urls')),
+       ...
+   ]
+
+All API urls by default are in: http://localhost:8000/api/curriculum/
 
 Features
 --------
